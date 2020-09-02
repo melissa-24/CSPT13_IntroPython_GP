@@ -5,7 +5,7 @@
 # console.log("Hello, CSPT13!", "Some other text", "and theres more...")
 # print("Hello, CSPT13!", "Some other text", "and theres more...")
 # print("Hello, CSPT13!", "Some other text", "and theres more...")
-# print("Hello")
+print("Hello")
 # variables
 # label = value
 # let const var (js)
@@ -13,16 +13,20 @@
 
 
 
-first_name = "Tom"
-# print("Hello CSPT13 and " + first_name)
+first_name = "Melissa"
+print("Hello CSPT13 and " + first_name)
 # num = 23.87
 
 # # f strings
-# my_string = "    this is a string tom    "
-# print(my_string)
+print(f"This is a number: ({1 + 34})")
+my_string = "    this is a string Melissa    "
+print(my_string)
 
-# print(my_string.strip())
-# print(len(my_string))
+# removed the indented whitespace
+print(my_string.strip())
+
+# gives you the length of a string
+print(len(my_string))
 # print(len(my_string.strip()))
 
 
