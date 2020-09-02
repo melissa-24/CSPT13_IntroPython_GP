@@ -88,15 +88,25 @@ print(s_names)
 # Dictionaries
 
 # Create a new dictionary
-
+# aka hash table or key value pair 
 # empty
-
+d = {}
 # key value pairs
-
+d2 = {
+    'name': 'Melissa',
+    'age': 'old'
+}
 # access an element via its key
-
-
+print(d2['name']) # O(1)
+print(d2)
 
 # Lets think about Tuples?
-# this of an imutable list --> the tuple
+# this of an imutable list --> the tuple = 
+# aka read only list
 # good for constant values
+# takes up less memory
+# similar to a const in js
+
+t = ()
+
+t2 = (1, 2, 3, 4)
